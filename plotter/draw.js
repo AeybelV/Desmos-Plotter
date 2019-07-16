@@ -1,7 +1,4 @@
-var data;
-$.getJSON("data.json", function(json) {
-    data = json // this will show the info it in firebug console
-});
+
 var elt = document.getElementById('calculator');
 var calculator = Desmos.GraphingCalculator(elt);
 
