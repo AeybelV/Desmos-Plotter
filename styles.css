@@ -1,0 +1,30 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;   
+    align-content: center;
+    justify-content: center;
+}
+.button{
+    background-color: #e7eced;
+    transition: background-color 1s;
+    cursor: pointer;
+    width: 25em;
+    border-radius: .25em;
+    text-align: center;
+    display: inline-block;
+    margin: 1em;
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.button:hover{
+    background-color: #afb6bb;
+}
+#plot{
+    color: white;
+    background-color: #1aad57;
+}
+#plot:hover{
+    background-color: #1b783e;
+}

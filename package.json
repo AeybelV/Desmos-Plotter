@@ -1,0 +1,11 @@
+{
+  "name": "desmosplotter",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Binary Donuts",
+  "dependencies": {
+    "get-pixels": "^3.3.2",
+    "lodash": "^4.17.14",
+    "rgb-hex": "^3.0.0"
+  }
+}
