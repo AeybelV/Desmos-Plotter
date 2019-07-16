@@ -83,5 +83,6 @@ function sortColors(p){
 
 function writeFile(pGroup){
     let data = JSON.stringify(pGroup,null,2);  
-    fs.writeFileSync('data.json', data);  
+    var s = "var data = " + data;
+    fs.writeFileSync('plotter/data.js', s);  
 }
